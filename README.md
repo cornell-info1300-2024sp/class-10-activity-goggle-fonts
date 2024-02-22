@@ -76,6 +76,8 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     Copy and paste this `font-family` snippet and apply it to an element in your CSS file.
 
-    ```body {
+    ```
+    body {
           font-family: "Roboto", sans-serif;
-    }```
+    }
+    ```
