@@ -1,0 +1,196 @@
+/* Note: No credit is provided for submitting design and/or code that is taken from course-provided examples. This includes the Ithaca Zoo example.  */
+
+/* Google Fonts Notes - fonts.google.com:
+    To use google fonts we need to:
+    1.  @import the font - this always goes at the top of the file as we need to import the font before we can use it.
+    2.  the apply the appropriate font-family property to elements on the page - in our case we will use the font-family property in the body tag.
+
+    Pro Tips:
+    - I will save the @import and font-family in a comment at the top of the file and then use them in the file.
+*/
+
+html {
+  background-color: #cfcbbf;
+  /* bg color for page borders */
+}
+
+/*
+  Set a max viewing area for wide screens:
+
+    max-width: 1000px; <-- set max width of content area
+    margin: 0 auto; <-- center the content area
+*/
+
+body {
+  max-width: 1000px;
+  /* set max width of content area */
+  margin: 0 auto;
+  /*center the content area */
+
+  font-family: 'Lucida Grande', 'Calibri', 'Cantarell', sans-serif;
+
+  background-color: white;
+}
+
+/*
+  Setup the header as a flex container - with the h1 and nav side by side:
+
+  display: flex; <-- set as flex container
+  flex-direction: row; <-- setup as side by side
+  align-items: center; <-- center in container
+  gap: 40px; <-- add spacing between elements
+*/
+
+header {
+  display: flex;
+  /* flex container */
+  flex-direction: row;
+  /* side by side */
+  align-items: center;
+  /* center in container */
+  gap: 40px;
+  /* add spacing between elements */
+
+  padding-left: 24px;
+
+  background-color: #efece5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22pt;
+}
+
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+/*
+  Setup the nav as a flex container with the nav links side by side:
+
+  display: flex; <-- flex the nav links
+  flex-direction: row; <-- side by side
+*/
+nav ul {
+  display: flex;
+  /* flex the nav links */
+  flex-direction: row;
+  /* side by side */
+
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: stretch;
+
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 20px 24px;
+
+  color: black;
+
+  font-size: 18pt;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  padding-bottom: 8px;
+
+  background-color: #d0e3d9;
+  border-bottom: 8px solid #55bea9;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.highlight {
+  color: black;
+  background-color: #efece5;
+}
+
+.highlight-fun {
+  color: white;
+  background-color: #f3633e;
+}
+
+.highlight-dark {
+  color: white;
+  background-color: #3e587e;
+}
+
+/*
+  Setup a generic flex container for side by side content:
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+*/
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+/*
+  Setup a generic class to center flex items.
+
+  .columns-center {
+    align-items: center;
+  }
+*/
+
+.columns-center {
+  align-items: center;
+}
+
+.readable {
+  padding: 24px;
+  background-color: white;
+  color: #2f466c;
+}
+
+.logo img {
+  display: block;
+}
+
+.theme-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+.picture-citation {
+  display: block;
+  font-size: 11pt;
+  text-align: right;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.picture-citation a {
+  color: #2f466c;
+}
+
+blockquote {
+  border-left: 2px solid #50525c;
+  padding: 0 10px;
+  margin-left: 0;
+}
