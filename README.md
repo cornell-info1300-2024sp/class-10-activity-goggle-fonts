@@ -34,21 +34,19 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     Lets select the font Roboto
 
-    You can search for it or go here ![Roboto](https://fonts.google.com/specimen/)
+    You can search for it or go here [Roboto](https://fonts.google.com/specimen/roboto)
 
     To get the code to use this font select the `Get font` button at the bottom of the page.
 
-    ![filters](figures/get-font.png)
-
     This then allows you access to get the embed code snippets.
 
-    ![filters](figures/get-embed-code.png)
+    ![get embed code](figures/get-embed-code.png)
 
 4.  Get the Code snippets to add to your CSS file
 
     Select the `Get embed code` button.  This will provide the 2 snippets you need to import the font and then apply the font on your page.
 
-    ![filters](figures/select-code.png)
+    ![select code](figures/select-code.png)
 
     SPECIAL NOTE:  Notice at the top there are 2 options:  `<link>` and `@import`
     We ALWAYS want to select the `@import` option (for this class.)
@@ -61,7 +59,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
     SPECIAL NOTE:  This snipped has a `<style>...</style>` we do not need this part.
     Only select the `@import` portion.
 
-    ![filters](figures/import-snippet.png)
+    ![import snippet](figures/import-snippet.png)
 
     This `@import` (without the `<style.` tags>) goes at the top of your CSS file.
     You need to `@import` the font before you can use it.
@@ -70,6 +68,6 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     SPECIAL NOTE:  Google fonts provides example classes for using all the variations for the font.  We only need the 1 line from 1 of the classes for the `font-family` property.
 
-    ![filters](figures/font-family-snippet.png)
+    ![font family snippet](figures/font-family-snippet.png)
 
     Copy and paste this `font-family` snippet and apply it to an element in your CSS file.
