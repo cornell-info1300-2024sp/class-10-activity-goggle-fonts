@@ -24,7 +24,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
     Here to will see > 1000 custom fonts that are available to you.
     Browse the list to find one you would like to try or you can search for the font name of you know the font you are looking for.
 
-    You can also select the `filters` button at top right and use that to select the decroative stroke type and a few other options.  Explore those options.
+    You can also select the `filters` button at top right and use that to select the decorative stroke type and a few other options.  Explore those options.
 
     ![filters](figures/filters.png)
 
@@ -64,6 +64,10 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
     This `@import` (without the `<style.` tags>) goes at the top of your CSS file.
     You need to `@import` the font before you can use it.
 
+    Place as the 1st line at the top of your CSS file:
+
+    ```@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')```
+
 6.  Get the `font-family' snippet and apply it to the an element in your CSS file
 
     SPECIAL NOTE:  Google fonts provides example classes for using all the variations for the font.  We only need the 1 line from 1 of the classes for the `font-family` property.
@@ -71,3 +75,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
     ![font family snippet](figures/font-family-snippet.png)
 
     Copy and paste this `font-family` snippet and apply it to an element in your CSS file.
+
+    ```body {
+          font-family: "Roboto", sans-serif;
+    }'''
