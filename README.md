@@ -38,17 +38,17 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     To get the code to use this font select the `Get font` button at the bottom of the page.
 
-        ![filters](figures/get-font.png)
+    ![filters](figures/get-font.png)
 
     This then allows you access to get the embed code snippets.
 
-        ![filters](figures/get-embed-code.png)
+    ![filters](figures/get-embed-code.png)
 
 4.  Get the Code snippets to add to your CSS file
 
     Select the `Get embed code` button.  This will provide the 2 snippets you need to import the font and then apply the font on your page.
 
-        ![filters](figures/select-code.png)
+    ![filters](figures/select-code.png)
 
     SPECIAL NOTE:  Notice at the top there are 2 options:  `<link>` and `@import`
     We ALWAYS want to select the `@import` option (for this class.)
@@ -61,7 +61,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
     SPECIAL NOTE:  This snipped has a `<style>...</style>` we do not need this part.
     Only select the `@import` portion.
 
-        ![filters](figures/import-snippet.png)
+    ![filters](figures/import-snippet.png)
 
     This `@import` (without the `<style.` tags>) goes at the top of your CSS file.
     You need to `@import` the font before you can use it.
