@@ -9,11 +9,11 @@ In this demo we will walk through how to use goggle fonts.<br>
 
 ## How to use Google Fonts
 
-To use a google font on your website you need to:
+To use a google font on your website you need to do these 2 things:
 
-1. `@import` the font to make it available in the browser is your CSS file
-   (Warning: Do not use the `<link` technique>)
-2. use the appropriate `font-family` property in your CSS file
+1. `@import` the font to make it available in the browser is your CSS file<br>
+   (**Warning:** Do not use the `<link` technique in this class>)
+2. Apply the appropriate `font-family` property to a rule set in your CSS file
 
 Lets follow these basic steps to import and use a google font in our Ithaca Zoo example site:
 
@@ -36,7 +36,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     You can search for it or go here [Roboto](https://fonts.google.com/specimen/roboto)
 
-    To get the code to use this font select the `Get font` button at the bottom of the page.
+    To get the 2 code snippets needed to use this font select the `Get font` button at the bottom of the page.
 
     This then allows you access to get the embed code snippets.
 
@@ -56,7 +56,7 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     Select the `@import` option.  And copy the code snippet:
 
-    SPECIAL NOTE:  This snipped has a `<style>...</style>` we do not need this part.<br>
+    **SPECIAL NOTE:**  This snipped has a `<style>...</style>` we do not need this part.<br>
     Only select the `@import` portion.
 
     ![import snippet](figures/import-snippet.png)
@@ -66,16 +66,18 @@ Lets follow these basic steps to import and use a google font in our Ithaca Zoo 
 
     Place as the 1st line of code at the top of your CSS file:
 
-    ```@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')```
+    ```
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+    ```
 
 6.  Get the `font-family' snippet and apply it to the an element in your CSS file
 
-    SPECIAL NOTE:  Google fonts provides many example classes for using all the variations for the font.<br>
+    **SPECIAL NOTE:**  Google fonts provides many example classes for using all the variations for the font.<br>
     **We only need the 1 line from 1 of the classes for the `font-family` property.**
 
     ![font family snippet](figures/font-family-snippet.png)
 
-    Copy and paste this `font-family` snippet and apply it to an element in your CSS file.
+    Copy and paste this `font-family` snippet and apply it to an element in your CSS file. In this example we add the `font-family` to the `<body>` element.
 
     ```
     body {
